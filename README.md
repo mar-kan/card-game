@@ -3,6 +3,7 @@ simplified version of Legend of the Five Rings
 
 (without graphics)
 
+Makefile Instructions:
 
 Compilation instructions: $ make compile
 
@@ -10,6 +11,7 @@ Execution instructions: $ make execute
 
 To clean up generated files: $ make clean
 
+Also contains CMake.
 
 
 Number of players is chosen at the start of the program at random and is a number between [2,8].
