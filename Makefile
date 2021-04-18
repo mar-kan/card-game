@@ -121,3 +121,6 @@ Gameplay.o: Gameplay.cpp Gameplay.cpp
 
 clean:
 	rm *.o game
+
+make execute:
+	./game

@@ -30,8 +30,8 @@ private:
 public:
     Card(string, int);
     void PrintCardStats();
-    virtual int effectBonus(int, int) {};
-    virtual bool ChainHoldings(list<Card*>, Card*) {};
+    virtual int effectBonus(int, int) { return 0; };
+    virtual bool ChainHoldings(list<Card*>, Card*) { return false; };
     virtual ~Card() {};
 
     Type getType() const;
